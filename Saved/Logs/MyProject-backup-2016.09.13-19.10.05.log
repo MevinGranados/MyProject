@@ -1,0 +1,1149 @@
+﻿Log file open, 09/13/16 02:30:54
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(88027428) SRandInit(88027430).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.078000
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.13-07.30.54:471][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.13-07.30.54:471][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.13-07.30.54:547][  0]LogInit: Computer: METAL_REAR
+[2016.09.13-07.30.54:547][  0]LogInit: User: Kevin
+[2016.09.13-07.30.54:547][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.09.13-07.30.54:547][  0]LogInit: High frequency timer resolution =2.143475 MHz
+[2016.09.13-07.30.54:547][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.09.13-07.30.54:547][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.13-07.30.54:547][  0]LogMemory: Process Physical Memory: 190.74 MB used, 190.74 MB peak
+[2016.09.13-07.30.54:547][  0]LogMemory: Process Virtual Memory: 194.96 MB used, 194.96 MB peak
+[2016.09.13-07.30.54:547][  0]LogMemory: Physical Memory: 3885.27 MB used, 8105.84 MB total
+[2016.09.13-07.30.54:547][  0]LogMemory: Virtual Memory: 552.39 MB used, 134217728.00 MB total
+[2016.09.13-07.30.55:465][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.13-07.30.55:472][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2016.09.13-07.30.55:473][  0]LogD3D11RHI:       128/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.09.13-07.30.56:022][  0]LogD3D11RHI:    1. 'AMD Radeon R9 M275' (Feature Level 11_0)
+[2016.09.13-07.30.56:022][  0]LogD3D11RHI:       2026/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2016.09.13-07.30.56:024][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.13-07.30.56:024][  0]LogD3D11RHI:       0/0/4052 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.13-07.30.56:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2016.09.13-07.30.56:032][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.13-07.30.56:033][  0]LogD3D11RHI:     GPU DeviceId: 0x6820 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.13-07.30.56:033][  0]LogWindows: EnumDisplayDevices:
+[2016.09.13-07.30.56:033][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2016.09.13-07.30.56:033][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2016.09.13-07.30.56:033][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2016.09.13-07.30.56:034][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.09.13-07.30.56:034][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 M275
+[2016.09.13-07.30.56:034][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.09.13-07.30.56:034][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.09.13-07.30.56:034][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.13-07.30.56:051][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.09.13-07.30.56:071][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.09.13-07.30.56:072][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Intermediate/Shaders/WorkingDirectory/5048/).
+[2016.09.13-07.30.56:072][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kevin/AppData/Local/Temp/UnrealShaderWorkingDir/FE0A77B14DE37B3571C5A6BC35D18024/'.
+[2016.09.13-07.30.56:072][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.13-07.31.00:155][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.13-07.31.00:172][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.13-07.31.00:188][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.13-07.31.00:204][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.13-07.31.00:220][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.13-07.31.00:238][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.13-07.31.00:251][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.13-07.31.00:274][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.13-07.31.00:290][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.13-07.31.00:308][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.13-07.31.00:320][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.13-07.31.00:360][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.13-07.31.00:360][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.13-07.31.00:366][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.13-07.31.00:461][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.13-07.31.00:472][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.13-07.31.00:496][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.13-07.31.00:518][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.13-07.31.00:562][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.13-07.31.00:562][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.13-07.31.01:157][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.13-07.31.01:776][  0]LogDerivedDataCache: Loaded boot cache 0.62s 48MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.13-07.31.01:776][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Kevin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.13-07.31.01:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.13-07.31.01:777][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.13-07.31.01:777][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.13-07.31.01:777][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.13-07.31.01:810][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.13-07.31.01:822][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.13-07.31.08:057][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.13-07.31.08:127][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.13-07.31.08:609][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.13-07.31.08:609][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.13-07.31.08:609][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.13-07.31.10:315][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.09.13-07.31.10:344][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.024243 seconds
+[2016.09.13-07.31.10:352][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.13-07.31.10:352][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.09.13-07.31.10:352][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.13-07.31.10:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.13-07.31.13:786][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.13-07.31.13:786][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.13-07.31.28:824][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.13-07.31.29:583][  0]SourceControl: Info Source control is disabled
+[2016.09.13-07.31.30:256][  0]SourceControl: Info Source control is disabled
+[2016.09.13-07.31.30:321][  0]SourceControl: Info Source control is disabled
+[2016.09.13-07.31.30:350][  0]SourceControl: Info Source control is disabled
+[2016.09.13-07.31.31:190][  0]LogEngine: Initializing Engine...
+[2016.09.13-07.31.31:319][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.13-07.31.31:320][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.13-07.31.31:727][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.13-07.31.31:750][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.31.31:796][  0]LogInit: FAudioDevice initialized.
+[2016.09.13-07.31.31:831][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/Kevin/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.13-07.31.31:843][  0]LogInit: Texture streaming: Enabled
+[2016.09.13-07.31.32:192][  0]LogInit: Transaction tracking system initialized
+[2016.09.13-07.31.32:469][  0]BlueprintLog: New page: Editor Load
+[2016.09.13-07.31.34:751][  0]LocalizationService: Info Localization service is disabled
+[2016.09.13-07.31.35:788][  0]LogConsoleResponse:Display: 
+[2016.09.13-07.31.38:760][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.13-07.31.38:760][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.13-07.31.39:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/' took 0.02s
+[2016.09.13-07.31.40:488][  0]SourceControl: Info Source control is disabled
+[2016.09.13-07.31.45:267][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.13-07.31.45:301][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.13-07.31.48:959][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.13-07.31.49:387][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.13-07.31.49:389][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.13-07.31.49:390][  0]LightingResults: New page: Lighting Build
+[2016.09.13-07.31.49:402][  0]MapCheck: New page: Map Check
+[2016.09.13-07.31.49:402][  0]LightingResults: New page: Lighting Build
+[2016.09.13-07.31.49:950][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/Smoke_Kevin_MAt'
+[2016.09.13-07.31.49:950][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/Smoke_Kevin_MAt' while loading ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset.
+[2016.09.13-07.31.49:950][  0]LoadErrors:Error: Error /Game/ThirdPerson/Particles/Smoke_Kevin : Can't find file for asset. /Game/StarterContent/Particles/Smoke_Kevin_MAt
+[2016.09.13-07.31.49:950][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/Smoke_Kevin_MAt'
+[2016.09.13-07.31.49:951][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/Smoke_Kevin_MAt' while loading ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset.
+[2016.09.13-07.31.49:951][  0]LoadErrors:Error: Error /Game/ThirdPerson/Particles/Smoke_Kevin : Can't find file for asset. /Game/StarterContent/Particles/Smoke_Kevin_MAt
+[2016.09.13-07.31.50:078][  0]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/Smoke_Kevin_MAt'
+[2016.09.13-07.31.50:078][  0]LoadErrors: Info Failed to load /Game/StarterContent/Particles/Smoke_Kevin_MAt.Smoke_Kevin_MAt Referenced by ParticleModuleRequired_1
+[2016.09.13-07.31.50:078][  0]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/Smoke_Kevin_MAt' while loading NULL.
+[2016.09.13-07.31.50:078][  0]LoadErrors: Info Failed to load /Game/StarterContent/Particles/Smoke_Kevin_MAt.Smoke_Kevin_MAt Referenced by ParticleModuleRequired_1
+[2016.09.13-07.31.52:695][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.31.53:029][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.13-07.31.53:031][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.13-07.31.53:119][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.24ms to complete.
+[2016.09.13-07.31.53:119][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.730
+[2016.09.13-07.31.53:552][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1eec_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_31bc_0///####STATCAT_Advanced####
+[2016.09.13-07.31.53:552][  0]LogCollectionManager: Loaded 0 collections in 0.004663 seconds
+[2016.09.13-07.31.53:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Collections/' took 0.01s
+[2016.09.13-07.31.53:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Developers/Kevin/Collections/' took 0.01s
+[2016.09.13-07.31.53:597][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Collections/' took 0.01s
+[2016.09.13-07.31.53:597][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.09.13-07.31.53:609][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2047 classes and 369 folders.
+[2016.09.13-07.31.53:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.13-07.31.53:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.13-07.31.53:616][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.09.13-07.31.53:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.09.13-07.31.55:299][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.09.13-07.31.55:337][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.09.13-07.31.55:417][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.13-07.31.55:429][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.13-07.31.55:481][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.09.13-07.31.55:482][  0]LogLoad: Full Startup: 64.24 seconds (BP compile: 0.35 seconds)
+[2016.09.13-07.31.55:482][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.13-07.31.55:482][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.13-07.31.55:500][  0]LogOcInput: OculusInput pre-init called
+[2016.09.13-07.31.55:525][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.09.13-07.31.56:215][  0]LogRenderer: Reallocating scene render targets to support 872x360 (Frame:2).
+[2016.09.13-07.31.57:426][  3]LogAssetRegistry: Asset discovery search completed in 47.1333 seconds
+[2016.09.13-07.31.57:426][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.09.13-07.31.57:426][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2016.09.13-07.32.01:715][194]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.09.13-07.32.01:786][194]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.01:921][194]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.01:929][194]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.32.01:973][194]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2016.09.13-07.32.02:114][194]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0009 seconds. Added 2 classes and 2 folders.
+[2016.09.13-07.32.02:689][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2016.09.13-07.32.03:273][194]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.09.13-07.32.09:974][382]MaterialEditorStats: Info Base pass shader without light map: 7 instructions
+[2016.09.13-07.32.09:974][382]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.09.13-07.32.09:974][382]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.09.13-07.32.34:690][717]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.34:701][717]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.34:710][717]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.32.35:821][762]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.35:875][762]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.35:888][762]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.32.43:348][ 94]MaterialEditorStats: Info Base pass shader without light map: 7 instructions
+[2016.09.13-07.32.43:348][ 94]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2016.09.13-07.32.43:348][ 94]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.09.13-07.32.47:953][215]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.47:971][215]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.32.48:026][215]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.48:118][215]LogMaterial: Missing cached shader map for material Anima_Temp, compiling. 
+[2016.09.13-07.32.48:139][215]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.33.06:815][137]LogSavePackage: Save=14.68ms
+[2016.09.13-07.33.06:815][137]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Anim_Temp_PartD64D45C9432016B0340C42834931176D.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anim_Temp_Part.uasset'
+[2016.09.13-07.33.06:823][137]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anim_Temp_Part.uasset
+[2016.09.13-07.34.07:391][769]LogSavePackage: Save=24.44ms
+[2016.09.13-07.34.07:391][769]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonRunC5E26E0B45D0D027C5AFABB14CCD40C3.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2016.09.13-07.34.07:399][769]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2016.09.13-07.34.12:377][992]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.34.12:377][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.34.12:458][992]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:34:12 PM)
+[2016.09.13-07.34.12:458][992]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.34.12:507][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048536s)
+[2016.09.13-07.34.12:508][992]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.34.12:508][992]LogPlayLevel: PIE: World Init took: (0.001584s)
+[2016.09.13-07.34.12:509][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.050630s)
+[2016.09.13-07.34.12:553][992]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.34.12:566][992]LogInit: FAudioDevice initialized.
+[2016.09.13-07.34.12:648][992]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.34.12:657][992]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.34.12
+[2016.09.13-07.34.12:658][992]LogWorld: Bringing up level for play took: 0.009450
+[2016.09.13-07.34.12:666][992]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2016.09.13-07.34.12:667][992]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.396
+[2016.09.13-07.34.12:667][992]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.34.42:877][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.34.42:919][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.34.47:903][966]LogCascade: Quitting Cascade. FXSystem=0x00000209FB7E6DE0
+[2016.09.13-07.34.51:009][135]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.09.13-07.34.51:220][135]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.09.13-07.34.51:232][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.13-07.34.51:263][135]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleColor_0, compiling. 
+[2016.09.13-07.34.52:481][180]LogMaterialEditor: Saving and Compiling material Anima_Temp
+[2016.09.13-07.34.52:599][180]LogSavePackage: Save=24.78ms
+[2016.09.13-07.34.52:600][180]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Anima_Temp8823ACCF495F67733F5B88B66F838B7E.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anima_Temp.uasset'
+[2016.09.13-07.34.52:604][180]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anima_Temp.uasset
+[2016.09.13-07.34.57:352][419]LogEditorViewport: Clicking on Actor (LMB): Emitter (Smoke_Kevin)
+[2016.09.13-07.35.02:128][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:128][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:128][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:132][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:132][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:132][692]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:144][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:144][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:144][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:149][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:149][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:149][693]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:206][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:206][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:206][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:211][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:211][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:211][694]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:220][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:224][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:224][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:224][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:231][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:231][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:232][695]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:284][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:285][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:285][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:292][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:292][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:293][696]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:303][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:303][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:303][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:311][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:311][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:311][697]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:324][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:324][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:325][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:329][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:329][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:329][698]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:344][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:344][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:345][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:349][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:349][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:349][699]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:358][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:358][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:358][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:362][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:362][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:362][700]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:378][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:378][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:378][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:381][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:381][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:381][701]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:390][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:390][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:390][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:394][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:394][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:394][702]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:410][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:410][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:410][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:413][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:413][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:413][703]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:424][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:424][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:424][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:427][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:428][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:428][704]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:443][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:443][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:443][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:447][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:447][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:447][705]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:457][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:457][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:457][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:460][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:460][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:460][706]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:477][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:477][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:478][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:481][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:481][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:482][707]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:491][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:491][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:491][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:494][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:494][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:495][708]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:505][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:511][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:511][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:511][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:516][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:516][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:517][709]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:527][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:527][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:527][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:531][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:531][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:532][710]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:556][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:556][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:556][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:559][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:560][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:560][711]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:576][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:576][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:576][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:582][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:582][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:582][712]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:589][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:589][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:589][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:593][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:593][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:593][713]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:606][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:607][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:607][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:613][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:613][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:613][714]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:622][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:622][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:622][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:625][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:625][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:625][715]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:643][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:643][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:643][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:647][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:647][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:647][716]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:655][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:655][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:655][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:659][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:659][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:659][717]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:674][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:675][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:675][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:680][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:680][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:680][718]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:689][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:689][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:689][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:692][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:692][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:693][719]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:708][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:708][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:708][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:713][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:713][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:713][720]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:721][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:722][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:722][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:725][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:725][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:725][721]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:742][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:742][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:743][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:746][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:746][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:747][722]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:755][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:755][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:755][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:759][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:759][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:759][723]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:775][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:776][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:776][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:781][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:781][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:782][724]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:789][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:789][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:789][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:792][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:792][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:792][725]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:808][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:808][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:809][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:813][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:813][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:814][726]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:822][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:822][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:822][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:825][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:825][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:825][727]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:841][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:841][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:842][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:846][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:846][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:846][728]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:855][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:855][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:855][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:859][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:859][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:860][729]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:875][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:876][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:876][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:880][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:880][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:881][730]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:890][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:890][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:890][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:894][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:894][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:894][731]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:909][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:909][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:910][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:914][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:914][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:915][732]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:922][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:922][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:922][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:926][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:926][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:926][733]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:941][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:941][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:941][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:946][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:946][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:947][734]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:956][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:956][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:956][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:960][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:960][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:960][735]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:973][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:973][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:973][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:980][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:980][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:980][736]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:989][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:989][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:989][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:992][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:992][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.02:993][737]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:009][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:009][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:010][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:014][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:014][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:014][738]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:023][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:023][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:023][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:027][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:027][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:027][739]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:043][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:043][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:043][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:047][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:047][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:047][740]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:055][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:055][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:055][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:059][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:059][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:059][741]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:075][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:075][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:075][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:079][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:080][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:080][742]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:088][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:089][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:089][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:092][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:092][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:092][743]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:109][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:109][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:109][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:113][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:113][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:113][744]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:122][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:122][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:122][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:125][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:125][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:125][745]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:143][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:143][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:143][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:147][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:147][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:147][746]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:155][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:155][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:155][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:159][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:159][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:159][747]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:175][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:175][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:176][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:180][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:180][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:180][748]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:189][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:189][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:189][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:192][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:192][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:192][749]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:208][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:209][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:209][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:213][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:213][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:213][750]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:222][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:222][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:222][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:226][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:226][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:226][751]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:242][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:242][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:242][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:246][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:246][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:246][752]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:256][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:256][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:256][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:259][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:259][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:260][753]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:276][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:276][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:276][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:280][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:280][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:280][754]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:289][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:289][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:289][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:292][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:292][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:292][755]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:308][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:309][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:309][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:312][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:312][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:313][756]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:322][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:322][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:322][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:326][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:326][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:327][757]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.03:337][758]LogText:Warning: Failed to parse argument "DropPath" as a number (using "0" as a fallback). Please check your format string for errors: "Move into "{DropPath}"".
+[2016.09.13-07.35.19:834][613]LogParticles:Warning: MaxCount = 5160 for Emitter ParticleSpriteEmitter_1 (/Game/ThirdPerson/Particles/Smoke_Kevin.Smoke_Kevin)
+[2016.09.13-07.35.26:081][936]LogSavePackage: Save=16.09ms
+[2016.09.13-07.35.26:081][936]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Smoke_KevinDD4CA6304C61C24BA23D848004055B50.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset'
+[2016.09.13-07.35.26:088][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset
+[2016.09.13-07.35.27:421][ 12]LogCascade: Quitting Cascade. FXSystem=0x00000209DE92D3A0
+[2016.09.13-07.35.28:947][ 91]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.35.28:947][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.35.28:947][ 91]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:35:28 PM)
+[2016.09.13-07.35.28:947][ 91]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.35.28:989][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041575s)
+[2016.09.13-07.35.28:990][ 91]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.35.28:990][ 91]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2016.09.13-07.35.28:990][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.043406s)
+[2016.09.13-07.35.29:027][ 91]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.35.29:040][ 91]LogInit: FAudioDevice initialized.
+[2016.09.13-07.35.29:102][ 91]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.35.29:111][ 91]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.35.29
+[2016.09.13-07.35.29:113][ 91]LogWorld: Bringing up level for play took: 0.009946
+[2016.09.13-07.35.29:115][ 91]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.844
+[2016.09.13-07.35.29:115][ 91]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.10:709][539]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.10:754][539]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.15:483][749]LogSavePackage: Save=790.68ms
+[2016.09.13-07.36.15:483][749]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonExampleMapCDD0DDB743D4D82D1B5784B5E54388B1.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.09.13-07.36.15:492][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.09.13-07.36.15:552][749]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.997
+[2016.09.13-07.36.29:940][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.29:940][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.36.29:941][974]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:36:29 PM)
+[2016.09.13-07.36.29:941][974]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.36.29:989][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048232s)
+[2016.09.13-07.36.29:991][974]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.36.29:991][974]LogPlayLevel: PIE: World Init took: (0.002171s)
+[2016.09.13-07.36.29:992][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.050982s)
+[2016.09.13-07.36.30:041][974]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.36.30:058][974]LogInit: FAudioDevice initialized.
+[2016.09.13-07.36.30:152][974]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.36.30:171][974]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.36.30
+[2016.09.13-07.36.30:172][974]LogWorld: Bringing up level for play took: 0.019320
+[2016.09.13-07.36.30:174][974]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.097
+[2016.09.13-07.36.30:174][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.34:120][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.36.34:172][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.37.30:905][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.37.30:905][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.37.30:906][535]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:37:30 PM)
+[2016.09.13-07.37.30:906][535]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.37.30:949][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042213s)
+[2016.09.13-07.37.30:951][535]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.37.30:951][535]LogPlayLevel: PIE: World Init took: (0.002167s)
+[2016.09.13-07.37.30:951][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045087s)
+[2016.09.13-07.37.30:990][535]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.37.31:003][535]LogInit: FAudioDevice initialized.
+[2016.09.13-07.37.31:071][535]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.37.31:086][535]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.37.31
+[2016.09.13-07.37.31:087][535]LogWorld: Bringing up level for play took: 0.015686
+[2016.09.13-07.37.31:089][535]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.818
+[2016.09.13-07.37.31:089][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.37.33:511][666]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.37.33:560][666]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.38.15:893][422]LogSavePackage: Save=28.61ms
+[2016.09.13-07.38.15:893][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Anima_TempF41B161842E33424F891D596CD49F308.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Anima_Temp.uasset'
+[2016.09.13-07.38.15:897][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Anima_Temp.uasset
+[2016.09.13-07.38.15:990][422]LogSavePackage: Save=26.15ms
+[2016.09.13-07.38.15:990][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Lighting_MaterialDE7FDF4C4A644A2CCAE998BC900CF5E1.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Lighting_Material.uasset'
+[2016.09.13-07.38.15:996][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Lighting_Material.uasset
+[2016.09.13-07.38.16:090][422]LogSavePackage: Save=27.88ms
+[2016.09.13-07.38.16:091][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/My_particle_texture0AEC331B4B640291E0A6F9AF46FA6FA7.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/My_particle_texture.uasset'
+[2016.09.13-07.38.16:098][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/My_particle_texture.uasset
+[2016.09.13-07.38.16:212][422]LogSavePackage: Save=33.81ms
+[2016.09.13-07.38.16:212][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Smoke_Kevin_MAt067ABB3C472EC99354C681A213134395.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Smoke_Kevin_MAt.uasset'
+[2016.09.13-07.38.16:216][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Mat_Part/Smoke_Kevin_MAt.uasset
+[2016.09.13-07.38.17:088][422]LogSavePackage: Save=19.87ms
+[2016.09.13-07.38.17:088][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Anim_Temp_PartEC87CB144D14C4E5F44F5BBC5EFDF731.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anim_Temp_Part.uasset'
+[2016.09.13-07.38.17:090][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Anim_Temp_Part.uasset
+[2016.09.13-07.38.17:168][422]LogSavePackage: Save=31.53ms
+[2016.09.13-07.38.17:168][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Lighting_ParticleA0168816498CD7196ED898AAF2712D2D.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Lighting_Particle.uasset'
+[2016.09.13-07.38.17:171][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Lighting_Particle.uasset
+[2016.09.13-07.38.17:254][422]LogSavePackage: Save=31.54ms
+[2016.09.13-07.38.17:255][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/My_custom_particle44E7ECD54DF37512C4622FABEC83AAFE.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/My_custom_particle.uasset'
+[2016.09.13-07.38.17:257][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/My_custom_particle.uasset
+[2016.09.13-07.38.17:390][422]LogSavePackage: Save=87.91ms
+[2016.09.13-07.38.17:390][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Snow_Particle733B44824AD56234680CACBC06B69E32.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Snow_Particle.uasset'
+[2016.09.13-07.38.17:393][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Snow_Particle.uasset
+[2016.09.13-07.38.17:433][422]LogSavePackage: Save=23.99ms
+[2016.09.13-07.38.17:433][422]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/Smoke_Kevin55D4B5464C72C68EE84D7088C34E59E0.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset'
+[2016.09.13-07.38.17:436][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPerson/Particles/Smoke_Kevin.uasset
+[2016.09.13-07.38.51:714][685]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2016.09.13-07.38.52:168][685]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.09.13-07.39.38:544][ 13]LogSavePackage: Save=12.14ms
+[2016.09.13-07.39.38:544][ 13]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonRunF6B92E9D4FFE1D5018E43A9D368CD5FA.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2016.09.13-07.39.38:548][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2016.09.13-07.39.50:763][429]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 111 classes and 0 folders.
+[2016.09.13-07.39.50:925][429]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2016.09.13-07.40.48:172][923]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.40.48:392][923]BlueprintEditorCompileResults: Info [0597.15] Compile of ThirdPerson_AnimBP successful! [in 219 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.40.52:530][ 52]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.40.52:948][ 52]LogSavePackage: Save=71.07ms
+[2016.09.13-07.40.52:948][ 52]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP2CB8F150496ADCA0B8EF828E8ACACE60.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.40.52:967][ 52]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.40.52:976][ 52]BlueprintEditorCompileResults: Info [0601.73] Compile of ThirdPerson_AnimBP successful! [in 445 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.41.38:100][229]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.41.38:476][229]LogSavePackage: Save=70.85ms
+[2016.09.13-07.41.38:476][229]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP81A830CB45E949C5B0662E8CC41C93D0.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.41.38:486][229]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.41.38:491][229]BlueprintEditorCompileResults: Info [0647.25] Compile of ThirdPerson_AnimBP successful! [in 390 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.42.19:447][886]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.42.19:787][886]LogSavePackage: Save=73.10ms
+[2016.09.13-07.42.19:787][886]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP978C04E44DCD8C9A51AA11902723F34D.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.42.19:791][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.42.19:796][886]BlueprintEditorCompileResults: Info [0688.55] Compile of ThirdPerson_AnimBP successful! [in 348 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.43.43:652][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.43.43:653][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.43.43:653][507]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:43:43 PM)
+[2016.09.13-07.43.43:653][507]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.43.43:842][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.188504s)
+[2016.09.13-07.43.43:843][507]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.43.43:843][507]LogPlayLevel: PIE: World Init took: (0.001610s)
+[2016.09.13-07.43.43:844][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.190829s)
+[2016.09.13-07.43.43:942][507]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.43.43:966][507]LogInit: FAudioDevice initialized.
+[2016.09.13-07.43.44:042][507]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.43.44:056][507]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.43.44
+[2016.09.13-07.43.44:058][507]LogWorld: Bringing up level for play took: 0.015333
+[2016.09.13-07.43.44:065][507]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.206
+[2016.09.13-07.43.44:065][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.43.58:149][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.43.58:214][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.45.32:604][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.45.32:604][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.45.32:604][ 68]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:45:32 PM)
+[2016.09.13-07.45.32:605][ 68]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.45.32:663][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058650s)
+[2016.09.13-07.45.32:666][ 68]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.45.32:666][ 68]LogPlayLevel: PIE: World Init took: (0.003077s)
+[2016.09.13-07.45.32:667][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.062287s)
+[2016.09.13-07.45.32:754][ 68]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.45.32:773][ 68]LogInit: FAudioDevice initialized.
+[2016.09.13-07.45.32:883][ 68]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.45.32:898][ 68]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.45.32
+[2016.09.13-07.45.32:900][ 68]LogWorld: Bringing up level for play took: 0.015682
+[2016.09.13-07.45.32:902][ 68]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.631
+[2016.09.13-07.45.32:902][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.45.47:038][818]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.45.47:094][818]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.47.41:120][341]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2016.09.13-07.48.13:195][918]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_0 or K2Node_DynamicCast /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:EventGraph.K2Node_DynamicCast_0
+[2016.09.13-07.48.13:195][918]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_0.EdGraphPin_306''
+[2016.09.13-07.48.13:196][918]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_AnimBlueprint_0:EventGraph.K2Node_Event_3 or K2Node_Event /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:ExecuteUbergraph_ThirdPerson_AnimBP.K2Node_Event_3
+[2016.09.13-07.48.13:196][918]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_3.EdGraphPin_116''
+[2016.09.13-07.48.13:196][918]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_133 or K2Node_CallFunction /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:EventGraph.K2Node_CallFunction_133
+[2016.09.13-07.48.13:196][918]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_133.EdGraphPin_309''
+[2016.09.13-07.48.13:196][918]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_133 or K2Node_CallFunction /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP:EventGraph.K2Node_CallFunction_133
+[2016.09.13-07.48.13:196][918]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_133.EdGraphPin_311''
+[2016.09.13-07.48.19:564][138]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.48.21:452][138]LogSavePackage: Save=72.90ms
+[2016.09.13-07.48.21:452][138]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP77BF05644995F3A931F15D97DCBF6DB3.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.48.21:461][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.48.21:466][138]BlueprintEditorCompileResults: Info [1050.22] Compile of ThirdPerson_AnimBP successful! [in 1,901 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.49.19:177][462]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.09.13-07.49.19:741][462]LogSavePackage: Save=85.86ms
+[2016.09.13-07.49.19:741][462]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonCharacter8D0D87D5416CFE52DC3A57A2137C6063.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.09.13-07.49.19:746][462]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.09.13-07.49.19:751][462]BlueprintEditorCompileResults: Info [1108.51] Compile of ThirdPersonCharacter successful! [in 573 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.09.13-07.49.21:424][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.21:424][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.49.21:424][546]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:49:21 PM)
+[2016.09.13-07.49.21:424][546]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.49.21:942][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.517752s)
+[2016.09.13-07.49.21:943][546]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.49.21:943][546]LogPlayLevel: PIE: World Init took: (0.001477s)
+[2016.09.13-07.49.21:943][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.519572s)
+[2016.09.13-07.49.21:999][546]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.49.22:017][546]LogInit: FAudioDevice initialized.
+[2016.09.13-07.49.22:091][546]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.49.22:106][546]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.49.22
+[2016.09.13-07.49.22:107][546]LogWorld: Bringing up level for play took: 0.015152
+[2016.09.13-07.49.22:109][546]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.162
+[2016.09.13-07.49.22:109][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.32:389][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.32:456][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.47:011][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.47:011][596]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.13-07.49.47:018][596]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2016.09.13-07.49.47:327][596]LogSavePackage: Save=78.14ms
+[2016.09.13-07.49.47:327][596]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP906685014A37E88893C6E6811AA3A9F4.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.49.47:332][596]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.49.47:337][596]LogPlayLevel: PlayLevel: Blueprint regeneration took 325 ms (1 blueprints)
+[2016.09.13-07.49.47:395][596]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:49:47 PM)
+[2016.09.13-07.49.47:396][596]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.49.47:530][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.134328s)
+[2016.09.13-07.49.47:531][596]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.49.47:531][596]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2016.09.13-07.49.47:531][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.135755s)
+[2016.09.13-07.49.47:585][596]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.49.47:600][596]LogInit: FAudioDevice initialized.
+[2016.09.13-07.49.47:662][596]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.49.47:673][596]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.49.47
+[2016.09.13-07.49.47:674][596]LogWorld: Bringing up level for play took: 0.010520
+[2016.09.13-07.49.47:675][596]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.404
+[2016.09.13-07.49.47:676][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.59:864][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.49.59:931][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.50.14:922][904]BlueprintLog: New page: Compile ThirdPerson_AnimBP
+[2016.09.13-07.50.15:265][904]LogSavePackage: Save=72.08ms
+[2016.09.13-07.50.15:265][904]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP037265E6442C14F9F1DE4EBD1151B35B.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.50.15:270][904]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.50.15:278][904]BlueprintEditorCompileResults: Info [1164.03] Compile of ThirdPerson_AnimBP successful! [in 356 ms] (/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP)
+[2016.09.13-07.50.20:310][ 89]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.09.13-07.50.52:363][347]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.09.13-07.51.35:387][948]LogSavePackage: Save=14.49ms
+[2016.09.13-07.51.35:387][948]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonRun1DF979474A178910580140BB97C155BC.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2016.09.13-07.51.35:392][948]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2016.09.13-07.51.40:647][ 74]LogSavePackage: Save=909.28ms
+[2016.09.13-07.51.40:647][ 74]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonExampleMap770F971040390B7F0E31F09DB5AF8959.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.09.13-07.51.40:654][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.09.13-07.51.40:720][ 74]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.667
+[2016.09.13-07.51.40:858][ 74]LogSavePackage: Save=74.10ms
+[2016.09.13-07.51.40:858][ 74]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPerson_AnimBP770373604FBE13A8D9255089B1A11B4B.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset'
+[2016.09.13-07.51.40:861][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset
+[2016.09.13-07.51.46:450][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.51.46:450][313]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.09.13-07.51.46:455][313]LogPlayLevel: [PlayLevel] Compiling ThirdPerson_AnimBP before play...
+[2016.09.13-07.51.46:607][313]LogPlayLevel: PlayLevel: Blueprint regeneration took 156 ms (1 blueprints)
+[2016.09.13-07.51.46:664][313]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:51:46 PM)
+[2016.09.13-07.51.46:664][313]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.51.46:711][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046475s)
+[2016.09.13-07.51.46:712][313]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.51.46:712][313]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2016.09.13-07.51.46:713][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048450s)
+[2016.09.13-07.51.46:767][313]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.51.46:781][313]LogInit: FAudioDevice initialized.
+[2016.09.13-07.51.46:848][313]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.51.46:856][313]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.51.46
+[2016.09.13-07.51.46:857][313]LogWorld: Bringing up level for play took: 0.008449
+[2016.09.13-07.51.46:859][313]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.588
+[2016.09.13-07.51.46:859][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.51.49:302][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.51.49:371][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.52.09:857][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.52.09:857][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.13-07.52.09:857][219]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 12, 2016, 8:52:09 PM)
+[2016.09.13-07.52.09:857][219]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.13-07.52.09:907][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050099s)
+[2016.09.13-07.52.09:909][219]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.13-07.52.09:909][219]LogPlayLevel: PIE: World Init took: (0.001425s)
+[2016.09.13-07.52.09:909][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.051974s)
+[2016.09.13-07.52.09:965][219]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.13-07.52.09:978][219]LogInit: FAudioDevice initialized.
+[2016.09.13-07.52.10:046][219]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.13-07.52.10:059][219]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.09.13-02.52.10
+[2016.09.13-07.52.10:060][219]LogWorld: Bringing up level for play took: 0.013567
+[2016.09.13-07.52.10:062][219]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.209
+[2016.09.13-07.52.10:062][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.52.10:699][249]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.11:292][282]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.11:895][317]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.12:492][348]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.13:093][377]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.14:741][472]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.15:354][508]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.17:338][622]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.17:953][658]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.18:576][690]LogBlueprintUserMessages: [ThirdPersonCharacter_167] Aqui pon lo que quieres que haga
+[2016.09.13-07.52.18:766][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.52.18:833][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.13-07.52.21:325][822]LogSavePackage: Save=14.25ms
+[2016.09.13-07.52.21:326][822]LogSavePackage: Moving '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Saved/ThirdPersonRunECC6397B4D256A2511A6899053BD376F.tmp' to '../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset'
+[2016.09.13-07.52.21:330][822]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Kevin/Documents/Unreal Projects/VID3/MyProject/Content/Mannequin/Animations/ThirdPersonRun.uasset
+[2016.09.13-07.52.26:176][ 53]Cmd: QUIT_EDITOR
+[2016.09.13-07.52.27:459][ 53]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.13-07.52.27:574][ 53]LogExit: Preparing to exit.
+[2016.09.13-07.52.29:229][ 53]LogExit: Editor shut down
+[2016.09.13-07.52.29:233][ 53]LogExit: Transaction tracking system shut down
+[2016.09.13-07.52.32:906][ 53]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.13-07.52.32:907][ 53]LogExit: Object subsystem successfully closed.
+[2016.09.13-07.52.33:134][ 53]LogD3D11RHI: Shutdown
+[2016.09.13-07.52.33:134][ 53]LogD3D11RHI: CleanupD3DDevice
+[2016.09.13-07.52.33:524][ 53]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.13-07.52.34:297][ 53]LogModuleManager: Shutting down and abandoning module BlueprintGraph (218)
+[2016.09.13-07.52.34:306][ 53]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2016.09.13-07.52.34:306][ 53]LogModuleManager: Shutting down and abandoning module DistCurveEditor (216)
+[2016.09.13-07.52.34:306][ 53]LogModuleManager: Shutting down and abandoning module Cascade (215)
+[2016.09.13-07.52.34:306][ 53]LogModuleManager: Shutting down and abandoning module MaterialEditor (214)
+[2016.09.13-07.52.34:319][ 53]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.09.13-07.52.34:329][ 53]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.09.13-07.52.34:329][ 53]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.09.13-07.52.34:329][ 53]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.09.13-07.52.34:342][ 53]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.09.13-07.52.34:373][ 53]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.09.13-07.52.34:373][ 53]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.09.13-07.52.34:373][ 53]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.09.13-07.52.34:389][ 53]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.09.13-07.52.34:406][ 53]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.09.13-07.52.34:417][ 53]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.09.13-07.52.34:437][ 53]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.09.13-07.52.34:437][ 53]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.09.13-07.52.34:437][ 53]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.09.13-07.52.34:437][ 53]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.09.13-07.52.34:437][ 53]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.09.13-07.52.34:450][ 53]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.09.13-07.52.34:463][ 53]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.09.13-07.52.34:463][ 53]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.09.13-07.52.34:472][ 53]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.09.13-07.52.34:472][ 53]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.09.13-07.52.34:475][ 53]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.09.13-07.52.34:489][ 53]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.09.13-07.52.34:522][ 53]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.09.13-07.52.34:522][ 53]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.09.13-07.52.34:522][ 53]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.09.13-07.52.34:522][ 53]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.09.13-07.52.34:522][ 53]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.09.13-07.52.34:536][ 53]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.09.13-07.52.34:561][ 53]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.09.13-07.52.34:573][ 53]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.09.13-07.52.34:573][ 53]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.09.13-07.52.34:582][ 53]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.09.13-07.52.34:582][ 53]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.09.13-07.52.34:968][ 53]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.09.13-07.52.35:011][ 53]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.09.13-07.52.35:011][ 53]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.09.13-07.52.35:011][ 53]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.09.13-07.52.35:022][ 53]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.09.13-07.52.35:022][ 53]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.09.13-07.52.35:048][ 53]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.09.13-07.52.35:056][ 53]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.09.13-07.52.35:067][ 53]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.09.13-07.52.35:083][ 53]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.09.13-07.52.35:096][ 53]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.09.13-07.52.35:101][ 53]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.09.13-07.52.35:106][ 53]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.09.13-07.52.35:106][ 53]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.09.13-07.52.35:116][ 53]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.09.13-07.52.35:127][ 53]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.09.13-07.52.35:134][ 53]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.09.13-07.52.35:134][ 53]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.09.13-07.52.35:154][ 53]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.09.13-07.52.35:154][ 53]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.09.13-07.52.35:180][ 53]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.09.13-07.52.35:204][ 53]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.09.13-07.52.35:225][ 53]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.09.13-07.52.35:248][ 53]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.09.13-07.52.35:254][ 53]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.09.13-07.52.35:324][ 53]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.09.13-07.52.35:339][ 53]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.09.13-07.52.35:383][ 53]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.09.13-07.52.35:407][ 53]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.09.13-07.52.35:407][ 53]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.09.13-07.52.35:424][ 53]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.09.13-07.52.35:424][ 53]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.09.13-07.52.35:437][ 53]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.09.13-07.52.35:449][ 53]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.09.13-07.52.35:449][ 53]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.09.13-07.52.35:467][ 53]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.09.13-07.52.35:474][ 53]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.09.13-07.52.35:490][ 53]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.09.13-07.52.35:527][ 53]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.09.13-07.52.35:539][ 53]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.09.13-07.52.35:552][ 53]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.09.13-07.52.35:553][ 53]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.09.13-07.52.35:554][ 53]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.09.13-07.52.35:565][ 53]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.09.13-07.52.35:573][ 53]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.09.13-07.52.35:573][ 53]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.09.13-07.52.35:727][ 53]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.09.13-07.52.35:752][ 53]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.09.13-07.52.35:753][ 53]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.09.13-07.52.35:754][ 53]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.09.13-07.52.35:770][ 53]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.09.13-07.52.35:770][ 53]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.09.13-07.52.35:770][ 53]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.09.13-07.52.35:770][ 53]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.09.13-07.52.35:770][ 53]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.09.13-07.52.35:789][ 53]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.09.13-07.52.35:789][ 53]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.09.13-07.52.35:800][ 53]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.09.13-07.52.35:807][ 53]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.09.13-07.52.35:807][ 53]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.09.13-07.52.35:820][ 53]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.09.13-07.52.35:853][ 53]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.09.13-07.52.35:881][ 53]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.09.13-07.52.35:903][ 53]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.09.13-07.52.35:903][ 53]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.09.13-07.52.35:916][ 53]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.09.13-07.52.35:916][ 53]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.09.13-07.52.35:931][ 53]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.09.13-07.52.35:955][ 53]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.09.13-07.52.36:023][ 53]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.09.13-07.52.36:041][ 53]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.09.13-07.52.36:046][ 53]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.09.13-07.52.36:049][ 53]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.09.13-07.52.36:084][ 53]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.13-07.52.36:184][ 53]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.13-07.52.36:184][ 53]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.13-07.52.36:210][ 53]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.13-07.52.36:210][ 53]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.13-07.52.36:210][ 53]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.13-07.52.36:223][ 53]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.13-07.52.36:223][ 53]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.13-07.52.36:238][ 53]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.13-07.52.36:238][ 53]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.13-07.52.36:238][ 53]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.13-07.52.36:258][ 53]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.13-07.52.36:258][ 53]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.13-07.52.36:258][ 53]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.13-07.52.36:281][ 53]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.13-07.52.36:281][ 53]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.13-07.52.36:297][ 53]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.13-07.52.36:330][ 53]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.13-07.52.36:330][ 53]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.13-07.52.36:330][ 53]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.13-07.52.36:350][ 53]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.13-07.52.36:386][ 53]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.13-07.52.36:424][ 53]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.13-07.52.36:459][ 53]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.13-07.52.36:459][ 53]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.13-07.52.36:489][ 53]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.13-07.52.36:496][ 53]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.13-07.52.36:779][ 53]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.13-07.52.36:779][ 53]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.13-07.52.36:786][ 53]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.13-07.52.36:809][ 53]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.13-07.52.36:821][ 53]LogDerivedDataCache: Shutdown
+[2016.09.13-07.52.36:822][ 53]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.13-07.52.36:836][ 53]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.13-07.52.36:852][ 53]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.13-07.52.36:892][ 53]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.13-07.52.36:906][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.13-07.52.36:906][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.13-07.52.36:922][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.13-07.52.36:947][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.13-07.52.36:947][ 53]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.13-07.52.36:947][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.13-07.52.36:947][ 53]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.13-07.52.36:947][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.13-07.52.37:103][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.13-07.52.37:110][ 53]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.13-07.52.37:132][ 53]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.13-07.52.37:133][ 53]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.13-07.52.37:141][ 53]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.13-07.52.37:164][ 53]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.13-07.52.37:209][ 53]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.13-07.52.37:223][ 53]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.13-07.52.37:224][ 53]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.13-07.52.37:226][ 53]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.13-07.52.37:226][ 53]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.13-07.52.37:228][ 53]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.13-07.52.37:228][ 53]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.13-07.52.37:228][ 53]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.13-07.52.37:235][ 53]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.13-07.52.40:242][ 53]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.13-07.52.40:272][ 53]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.13-07.52.40:289][ 53]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.13-07.52.40:289][ 53]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.13-07.52.40:302][ 53]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.13-07.52.40:302][ 53]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.13-07.52.40:302][ 53]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.13-07.52.40:345][ 53]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.13-07.52.40:356][ 53]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.13-07.52.40:367][ 53]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.13-07.52.40:374][ 53]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.13-07.52.40:386][ 53]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.13-07.52.40:453][ 53]LogExit: Exiting.
+[2016.09.13-07.52.40:680][ 53]Log file closed, 09/13/16 02:52:40
